@@ -9,6 +9,12 @@
     <link rel="stylesheet" href="plugins/datatables.min.css">
     <link rel="stylesheet" href="Table.css">
     <script type="text/javascript" src="plugins/datatables.min.js"></script>
+    <script>
+        function sumNumber(){
+            var a = parseInt(document.getElementById("num1").value);
+            var b = parseInt($('#num2').val());
+            $('$result').text('Result is ' + (a + b));
+        }
 </head>
 
 <body>
